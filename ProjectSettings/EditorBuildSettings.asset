@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/01.Scenes/GameIntro.unity
+    guid: c42c0be0d105faa49b715eeb9d0052d8
+  - enabled: 1
+    path: Assets/01.Scenes/AR.unity
+    guid: 3089c9ba4d58a3040b88696b3dd44aaa
+  - enabled: 1
+    path: Assets/01.Scenes/GameOption.unity
+    guid: 4b61b876077bb0d4e86dfc1d28bf0ed7
+  - enabled: 1
+    path: Assets/01.Scenes/BookReportPage.unity
+    guid: 80c3263f0bec7734787e19cf9494f717
+  - enabled: 1
+    path: Assets/01.Scenes/GameInformation.unity
+    guid: ed799c9f5331d0b4f816e7c4e4a5ebc7
+  - enabled: 1
+    path: Assets/01.Scenes/GameCreator.unity
+    guid: 61a9d4ea7c11af14f981aeb37524ab95
+  - enabled: 1
+    path: Assets/01.Scenes/ARDrawing.unity
+    guid: a68f2fe37f3fee940baf9d74ae2b2f82
+  - enabled: 1
+    path: Assets/01.Scenes/Painter.unity
+    guid: 2e98554ff15eff7418fbfc24933c7858
+  - enabled: 1
+    path: Assets/01.Scenes/AndroidCamera.unity
+    guid: ca3fd07dbc5d5294dac2854732ed85bf
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 812d734670b8e6948bc539b1d174793a, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 63fcb522b56bf334687c96b2fbf864d1, type: 2}
