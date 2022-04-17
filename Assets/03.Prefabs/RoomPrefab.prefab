@@ -1496,7 +1496,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7513156398957794957}
         m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
-        m_MethodName: SceneChangeToBookReport
+        m_MethodName: SceneChaneToAndroidCamera
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4053,7 +4053,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4892065105985212024}
   m_LocalRotation: {x: -0, y: -0, z: 0.70710677, w: 0.7071068}
-  m_LocalPosition: {x: -0.008899985, y: 0.05789999, z: 0.2737}
+  m_LocalPosition: {x: -0.008899985, y: 0.05789999, z: -0.002}
   m_LocalScale: {x: 0.010343681, y: 0.018307399, z: 0.006883584}
   m_Children: []
   m_Father: {fileID: 1344721564182558296}
@@ -4178,7 +4178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6047629316516453075}
   m_LocalRotation: {x: -0, y: -0, z: 0.70710677, w: 0.7071068}
-  m_LocalPosition: {x: -0.0089, y: 0.0579, z: -0.27646026}
+  m_LocalPosition: {x: -0.0089, y: 0.0579, z: 0.001}
   m_LocalScale: {x: 0.010343681, y: 0.018307399, z: 0.006883583}
   m_Children: []
   m_Father: {fileID: 6573371864320768797}
