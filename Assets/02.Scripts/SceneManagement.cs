@@ -50,11 +50,6 @@ public class SceneManagement : MonoBehaviour
         SceneManager.LoadScene("BookReportPage");
     }
 
-    public void Scenewjfkwkfkmf()
-{
-    SceneManager.LoadScene("sdflkwflk");
-}
-
     public void GameQuit()
     {
 #if UNITY_EDITOR
