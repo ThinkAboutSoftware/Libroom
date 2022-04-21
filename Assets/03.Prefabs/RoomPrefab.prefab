@@ -1047,6 +1047,7 @@ GameObject:
   - component: {fileID: 3696279329908813760}
   - component: {fileID: 3478901254361306193}
   - component: {fileID: 3416101362523025237}
+  - component: {fileID: 1722015336007811723}
   m_Layer: 5
   m_Name: BookShelfColorChange
   m_TagString: Untagged
@@ -1118,6 +1119,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!111 &1722015336007811723
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194622607986128955}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 186bf8ddb72659345ba0ed300c16e928, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 186bf8ddb72659345ba0ed300c16e928, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &1220748754191634927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,6 +1700,7 @@ GameObject:
   - component: {fileID: 2529545467306891322}
   - component: {fileID: 7378578425856554444}
   - component: {fileID: 1820415148838276295}
+  - component: {fileID: 1404703149639848923}
   m_Layer: 5
   m_Name: ChairColorChange
   m_TagString: Untagged
@@ -1754,6 +1772,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!111 &1404703149639848923
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2366676280926532970}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 186bf8ddb72659345ba0ed300c16e928, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 186bf8ddb72659345ba0ed300c16e928, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &2736003183674074332
 GameObject:
   m_ObjectHideFlags: 0
@@ -3111,13 +3145,14 @@ GameObject:
   - component: {fileID: 7295080993142625716}
   - component: {fileID: 8666680332288408123}
   - component: {fileID: 1474055354458326855}
+  - component: {fileID: 4525865268335117875}
   m_Layer: 5
   m_Name: RugColorChange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7295080993142625716
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3182,6 +3217,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!111 &4525865268335117875
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3755420571983315386}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 186bf8ddb72659345ba0ed300c16e928, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 186bf8ddb72659345ba0ed300c16e928, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &4023874054453581194
 GameObject:
   m_ObjectHideFlags: 0
@@ -5584,13 +5635,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7413632852625506347}
-  m_LocalRotation: {x: -0.7071068, y: 0.000000022476462, z: 0.000000084293696, w: 0.7071067}
-  m_LocalPosition: {x: 0.00027496813, y: -0.0036621864, z: -0.039261572}
-  m_LocalScale: {x: 0.0020894927, y: 92.50855, z: 0.00171908}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0.000275, y: -0.000141, z: -0.0393}
+  m_LocalScale: {x: 0.0020894927, y: 92.50855, z: 0.0024232152}
   m_Children: []
   m_Father: {fileID: 7242615444791046362}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!33 &830330130299198489
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6654,6 +6705,7 @@ GameObject:
   - component: {fileID: 2473524258958675249}
   - component: {fileID: 3164549020660763325}
   - component: {fileID: 7344819866116452809}
+  - component: {fileID: 9125051720803367442}
   m_Layer: 5
   m_Name: DoorColorChange
   m_TagString: Untagged
@@ -6725,6 +6777,22 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!111 &9125051720803367442
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8332456238575645490}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 186bf8ddb72659345ba0ed300c16e928, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 186bf8ddb72659345ba0ed300c16e928, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &8786848517708064717
 GameObject:
   m_ObjectHideFlags: 0
@@ -7734,26 +7802,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
---- !u!4 &7242615444791046362 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -2577548232221058511, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
-  m_PrefabInstance: {fileID: 4087093445997374187}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &720978691383567595 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -5568371526223589888, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
-  m_PrefabInstance: {fileID: 4087093445997374187}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &4338567984596217677 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8895183974314457690, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
-  m_PrefabInstance: {fileID: 4087093445997374187}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1270834264326880535 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -6261502313809504260, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
-  m_PrefabInstance: {fileID: 4087093445997374187}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &3781101759197157306 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
@@ -7762,6 +7810,11 @@ GameObject:
 --- !u!4 &4553979975102713088 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
+  m_PrefabInstance: {fileID: 4087093445997374187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1270834264326880535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6261502313809504260, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
   m_PrefabInstance: {fileID: 4087093445997374187}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &5697200108705600983 stripped
@@ -7777,6 +7830,21 @@ Transform:
 --- !u!1 &4038625544903428549 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 50754954277266222, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
+  m_PrefabInstance: {fileID: 4087093445997374187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7242615444791046362 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2577548232221058511, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
+  m_PrefabInstance: {fileID: 4087093445997374187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &720978691383567595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5568371526223589888, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
+  m_PrefabInstance: {fileID: 4087093445997374187}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4338567984596217677 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8895183974314457690, guid: 5c283a9e54da7784aa76a3d44dd2ded6, type: 3}
   m_PrefabInstance: {fileID: 4087093445997374187}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &6495832706579069277
