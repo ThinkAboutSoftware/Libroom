@@ -28,7 +28,6 @@ public class RoomManager : MonoBehaviour
             return;
         }
 
-        // 자동차 모델링 생성
         // 인디케이터가 활성화 되어 있으면서 화면 터치가 있다면
         if (indicator.activeInHierarchy && Input.touchCount > 0)
         {
