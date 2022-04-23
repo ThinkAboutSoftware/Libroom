@@ -218,7 +218,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &835499508
 AudioSource:
@@ -230,7 +230,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 99dd054d39d2570449f097795b563710, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 22415f2cb4c36264485d378072b2d4a3, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1327,7 +1327,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1976189913
 GameObject:
@@ -1414,7 +1414,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1871246824}
         m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
-        m_MethodName: SceneChangeToGameMain
+        m_MethodName: SceneChangeToBeforeMainGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

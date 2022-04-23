@@ -50,6 +50,11 @@ public class SceneManagement : MonoBehaviour
         SceneManager.LoadScene("BookReportPage");
     }
 
+    public void SceneChangeToBeforeMainGame()
+    {
+        SceneManager.LoadScene("BeforeMainGame");
+    }
+
     public void GameQuit()
     {
 #if UNITY_EDITOR

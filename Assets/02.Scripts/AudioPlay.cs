@@ -52,7 +52,7 @@ public class AudioPlay : MonoBehaviour
         {
             DontDestroyOnLoad(transform.gameObject);
         }
-        SceneManager.LoadScene("AR");
+        // SceneManager.LoadScene("BeforeMainGame");
     }
 
 
