@@ -10,6 +10,11 @@ public class SceneManagement : MonoBehaviour
         SceneManager.LoadScene("AR");
     }
 
+    public void LoadingScene()
+    {
+        LoadingSceneController.LoadScene("BeforeMainGame");
+    }
+
     public void SceneChangeToGameExplain()
     {
         SceneManager.LoadScene("GameOption");
