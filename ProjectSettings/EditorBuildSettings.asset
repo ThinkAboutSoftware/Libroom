@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/01.Scenes/AndroidCamera.unity
     guid: ca3fd07dbc5d5294dac2854732ed85bf
+  - enabled: 1
+    path: Assets/EasyLoadingScreen/ExampleScene/Example.unity
+    guid: a7121f7f158c1ad40a8949a6f07d400a
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 812d734670b8e6948bc539b1d174793a, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 63fcb522b56bf334687c96b2fbf864d1, type: 2}
