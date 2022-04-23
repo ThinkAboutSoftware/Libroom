@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/01.Scenes/LoadingScene.unity
     guid: bcce0fc651814c44582b0131cfa19a4c
   - enabled: 1
-    path: Assets/01.Scenes/BeforeMainGame.unity
-    guid: be089ed65e216f94cbe238c9ed1d51d9
-  - enabled: 1
     path: Assets/01.Scenes/AR.unity
     guid: 3089c9ba4d58a3040b88696b3dd44aaa
   - enabled: 1
