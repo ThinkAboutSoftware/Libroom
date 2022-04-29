@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2607773003886774175}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChairColor, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
@@ -1919,7 +1919,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1961204934273568249}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChairColor, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
@@ -3913,7 +3913,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2607773003886774175}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChairColor, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
@@ -5110,7 +5110,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2607773003886774175}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChairColor, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
@@ -6116,7 +6116,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1961204934273568249}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChairColor, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
@@ -7181,7 +7181,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1961204934273568249}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChairColor, Assembly-CSharp
         m_MethodName: ChangeColor
         m_Mode: 3
@@ -7555,8 +7555,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3690605127466348484}
-  - component: {fileID: 2607773003886774175}
-  - component: {fileID: 1961204934273568249}
+  - component: {fileID: 235836796326230780}
+  - component: {fileID: 2822366505375945019}
   m_Layer: 0
   m_Name: FirstRoom
   m_TagString: Untagged
@@ -7607,7 +7607,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2607773003886774175
+--- !u!114 &235836796326230780
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7616,7 +7616,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8809504537886771229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 962820ac39145304ca777846873715cc, type: 3}
+  m_Script: {fileID: 11500000, guid: 99f6731d058c23b459a7d47a209f5057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bodyObject:
@@ -7625,12 +7625,12 @@ MonoBehaviour:
   - {fileID: 8035118894347177877}
   colors:
   - serializedVersion: 2
-    rgba: 9528096
+    rgba: 4287718176
   - serializedVersion: 2
-    rgba: 9983
+    rgba: 4278200063
   - serializedVersion: 2
-    rgba: 65023
---- !u!114 &1961204934273568249
+    rgba: 4278255103
+--- !u!114 &2822366505375945019
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7639,7 +7639,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8809504537886771229}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 962820ac39145304ca777846873715cc, type: 3}
+  m_Script: {fileID: 11500000, guid: 99f6731d058c23b459a7d47a209f5057, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   bodyObject:
@@ -7648,11 +7648,11 @@ MonoBehaviour:
   - {fileID: 482843350037057103}
   colors:
   - serializedVersion: 2
-    rgba: 2769059
+    rgba: 4280959139
   - serializedVersion: 2
-    rgba: 2338541
+    rgba: 4278255519
   - serializedVersion: 2
-    rgba: 11882272
+    rgba: 4293000960
 --- !u!1 &9210956982227462071
 GameObject:
   m_ObjectHideFlags: 0
