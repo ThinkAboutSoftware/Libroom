@@ -1930,7 +1930,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   indicator: {fileID: 1114040580}
-  myRoom: {fileID: 4104680419065868922, guid: 8608e884e35dc664fb070a90e2a0db6e, type: 3}
+  myRoom: {fileID: 8809504537886771229, guid: a86ed5f6207f9044e9ecb689ba47a199, type: 3}
 --- !u!1 &1836043367
 GameObject:
   m_ObjectHideFlags: 0
