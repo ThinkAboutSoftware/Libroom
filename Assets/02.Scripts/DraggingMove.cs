@@ -46,6 +46,24 @@ public class DraggingMove : MonoBehaviour
                     offset = toDrag.position - v3;
                     dragging = true;
                 }
+                if (hit.collider.tag == "sofa")
+                {
+                    toDrag = hit.transform;
+                    dist = hit.transform.position.z - Camera.main.transform.position.z;
+                    v3 = new Vector3(pos.x, pos.y, dist);
+                    v3 = Camera.main.ScreenToWorldPoint(v3);
+                    offset = toDrag.position - v3;
+                    dragging = true;
+                }
+                if (hit.collider.tag == "cabinet")
+                {
+                    toDrag = hit.transform;
+                    dist = hit.transform.position.z - Camera.main.transform.position.z;
+                    v3 = new Vector3(pos.x, pos.y, dist);
+                    v3 = Camera.main.ScreenToWorldPoint(v3);
+                    offset = toDrag.position - v3;
+                    dragging = true;
+                }
             }
         }
 

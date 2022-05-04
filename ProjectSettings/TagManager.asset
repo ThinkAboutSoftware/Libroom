@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Music
   - Room
+  - chair
+  - table
+  - sofa
+  - cabinet
   layers:
   - Default
   - TransparentFX
