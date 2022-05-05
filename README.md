@@ -4,5 +4,4 @@
 
 ### Use Unity 2020.3.21 Version
 #### Base on AR Technology application.
-AR Foundation, AR Core, XR</br>
-<style="color:red">Only Android</span>
+AR Foundation, AR Core, XR
