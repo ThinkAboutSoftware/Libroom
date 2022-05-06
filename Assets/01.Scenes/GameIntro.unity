@@ -1376,7 +1376,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1871246824}
         m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
-        m_MethodName: SceneChangeToGameMain
+        m_MethodName: LoadingScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
