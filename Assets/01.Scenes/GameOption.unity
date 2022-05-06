@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 211635534}
   - component: {fileID: 211635533}
   - component: {fileID: 211635532}
+  - component: {fileID: 211635535}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -206,6 +207,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &211635535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 211635531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 694bb407dfb4f48459f89174d75421e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &514321100
 GameObject:
   m_ObjectHideFlags: 0
@@ -737,6 +750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1131315059}
   - component: {fileID: 1131315058}
+  - component: {fileID: 1131315060}
   m_Layer: 0
   m_Name: SceneManagement
   m_TagString: Untagged
@@ -770,6 +784,41 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1131315060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131315057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de10cf5752ed3ed4488d2cc9293f7115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  durationEntry: 0.5
+  animationTypeEntry: 2
+  slideTypeEntry: 0
+  slideDirectionEntry: 0
+  circleSlideEntry: 3
+  circleSizeEntry: 100
+  circleExitEase: 18
+  circleExitDuration: 0.5
+  backPanelColorEntry: {r: 0.5411765, g: 0, b: 0.2509804, a: 1}
+  frontPanelColorEntry: {r: 0, g: 0, b: 0, a: 0}
+  easeEntry: 14
+  durationExit: 0.5
+  animationTypeExit: 2
+  slideTypeExit: 0
+  slideDirectionExit: 0
+  circleSlideExit: 3
+  circleSizeExit: 100
+  circleEntryEase: 17
+  circleEntryDuration: 0.5
+  backPanelColorExit: {r: 0.5411765, g: 0, b: 0.2509804, a: 1}
+  frontPanelColorExit: {r: 0, g: 0, b: 0, a: 0}
+  easeExit: 21
+  holdDuration: 0
 --- !u!1 &1220470565
 GameObject:
   m_ObjectHideFlags: 0
@@ -971,16 +1020,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1131315058}
-        m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
-        m_MethodName: SceneChangeToGameInformation
-        m_Mode: 1
+      - m_Target: {fileID: 211635535}
+        m_TargetAssemblyTypeName: SceneExample, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: GameInformation
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1304981612
@@ -1502,16 +1551,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1220470566}
-        m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
-        m_MethodName: SceneChangeToGameIntro
-        m_Mode: 1
+      - m_Target: {fileID: 211635535}
+        m_TargetAssemblyTypeName: SceneExample, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: GameIntro
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1658534864

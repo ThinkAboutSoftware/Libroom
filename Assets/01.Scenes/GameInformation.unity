@@ -248,7 +248,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &698383449
 GameObject:
@@ -640,16 +640,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1983993595}
-        m_TargetAssemblyTypeName: SceneManagement, Assembly-CSharp
-        m_MethodName: SceneChangeToGameExplain
-        m_Mode: 1
+      - m_Target: {fileID: 2058260800}
+        m_TargetAssemblyTypeName: SceneExample, Assembly-CSharp
+        m_MethodName: ChangeScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: GameOption
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &994190855
@@ -991,6 +991,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1983993596}
   - component: {fileID: 1983993595}
+  - component: {fileID: 1983993597}
   m_Layer: 0
   m_Name: SceneManagement
   m_TagString: Untagged
@@ -1022,8 +1023,43 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1983993597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983993594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de10cf5752ed3ed4488d2cc9293f7115, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  durationEntry: 0.5
+  animationTypeEntry: 2
+  slideTypeEntry: 0
+  slideDirectionEntry: 0
+  circleSlideEntry: 3
+  circleSizeEntry: 100
+  circleExitEase: 18
+  circleExitDuration: 0.5
+  backPanelColorEntry: {r: 0.5411765, g: 0, b: 0.2509804, a: 1}
+  frontPanelColorEntry: {r: 0, g: 0, b: 0, a: 0}
+  easeEntry: 14
+  durationExit: 0.5
+  animationTypeExit: 2
+  slideTypeExit: 0
+  slideDirectionExit: 0
+  circleSlideExit: 3
+  circleSizeExit: 100
+  circleEntryEase: 17
+  circleEntryDuration: 0.5
+  backPanelColorExit: {r: 0.5411765, g: 0, b: 0.2509804, a: 1}
+  frontPanelColorExit: {r: 0, g: 0, b: 0, a: 0}
+  easeExit: 12
+  holdDuration: 0
 --- !u!1 &2006544566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,6 +1143,7 @@ GameObject:
   - component: {fileID: 2058260799}
   - component: {fileID: 2058260798}
   - component: {fileID: 2058260797}
+  - component: {fileID: 2058260800}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1179,3 +1216,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2058260800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058260796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 694bb407dfb4f48459f89174d75421e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
