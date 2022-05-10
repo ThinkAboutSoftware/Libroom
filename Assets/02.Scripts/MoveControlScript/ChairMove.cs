@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody),typeof(MeshCollider))]
+[RequireComponent(typeof(Rigidbody),typeof(CapsuleCollider))]
 public class ChairMove : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rigidbody;
