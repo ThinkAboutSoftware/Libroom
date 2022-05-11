@@ -5,10 +5,11 @@ using UnityEngine.UI;
 
 public class Rotation : MonoBehaviour
 {
-    public float rotateSpeed = 180.0f;
+    [SerializeField]
+    private GameObject prefab;
 
     public void OnClickLeft()
     {
-        transform.Rotate(Vector3.right * rotateSpeed * Time.deltaTime);
+        prefab.transform.Rotate(10.0f,0.0f,0.0f);
     }
 }
